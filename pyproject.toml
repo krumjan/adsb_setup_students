@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "adsb-setup-students"
+version = "0.1.0"
+description = ""
+authors = ["Jan Krummen <krum@zhaw.ch>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+traffic = "^2.9.0"
+plotly = "^5.19.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
