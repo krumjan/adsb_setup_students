@@ -1,7 +1,7 @@
 OSN ADS-B Setup
 ==============
 
-## 1. Setup of Miniconda
+# 1. Setup of Miniconda
 In a first step it is necessary to get a recent Python installation on your computer. For this purpose, the use of Miniconda is recommended, the latest version of which can be downloaded from this [Website](https://docs.conda.io/projects/miniconda/en/latest/). Miniconda is a slimmed down version of Anaconda with a minimum of pre-installed packages. Only the packages you really need can be installed later, keeping size the installation small.
 
 Run the downloaded .exe file which will guide you through the installation.
@@ -10,11 +10,11 @@ Run the downloaded .exe file which will guide you through the installation.
 >
 >![alt text](../images/miniconda_check.PNG)
 
-## 2. Setup of VSCode
+# 2. Setup of VSCode
 The next step is to download and install a programming environment. While it is possible to use any programming environment that supports Python, it is highly recommended to use VSCode, which can be downloaded from this 
 [website](https://code.visualstudio.com/Download). Once again, run the downloaded .exe file and follow the installation, this time keeping all the default settings.
 
-## 3. Setup of Poetry
+# 3. Setup of Poetry
 To manage environments and their packages, it is recommended to use Poetry instead of the basic Conda. To install Poetry, open any terminal (e.g. in VSCode) and run the following command:
 
 ```bash
@@ -54,7 +54,7 @@ It is also always possible to add additional packages to the envrionment at a la
 poetry add package_name
 ```
 
-## 4. Setting OSN Credentials
+# 4. Setting OSN Credentials
 In order to retrieve data from the OpenSky network using the Traffic library, it is necessary to provide Traffic with your access credentials. This is done by entering them in a config file of the library. To locate this config file on your computer, open any jupyter notebook and type the following two lines, then run them:
 ```python
 import traffic
