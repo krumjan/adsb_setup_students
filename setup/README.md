@@ -40,8 +40,9 @@ poetry init
 
 Poetry will now interactively guide you through the setup of an environment, allowing you to add the necessary packages. To start working with ADS-B data it is recommended that you install the following packages in your environment:
 
-1. Traffic
-2. Plotly
+1. traffic
+2. plotly
+3. nbformat (>=4.2.0)
 
 Once you have completed the guided process, you will find a new file called pyproject.toml in your project folder, which contains information about the environment you have just defined. To build a virtual environment based on this file, run the following line in your terminal:
 
